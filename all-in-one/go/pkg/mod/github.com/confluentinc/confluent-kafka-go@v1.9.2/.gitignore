@@ -1,0 +1,7 @@
+*~
+\#*
+*.prof
+tmp-build
+.DS_Store
+.idea
+.go-version

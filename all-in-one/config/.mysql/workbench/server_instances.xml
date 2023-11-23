@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<data grt_format="2.0">
+  <value _ptr_="0x555555ebcab0" type="list" content-type="object" content-struct-name="db.mgmt.ServerInstance">
+    <value type="object" struct-name="db.mgmt.ServerInstance" id="e629cf7a-83aa-11ee-88bc-0242ac150003" struct-checksum="0x367436e2">
+      <link type="object" struct-name="db.mgmt.Connection" key="connection">d16a95c4-83aa-11ee-88bc-0242ac150003</link>
+      <value _ptr_="0x555555fd0c50" type="dict" key="loginInfo">
+        <value type="string" key="ssh.hostName"></value>
+        <value type="string" key="ssh.key">~/.ssh/ssh_private_key</value>
+        <value type="string" key="ssh.localPort">3306</value>
+        <value type="int" key="ssh.useKey">0</value>
+        <value type="string" key="ssh.userName">mysql</value>
+      </value>
+      <value _ptr_="0x555555fd0b00" type="dict" key="serverInfo">
+        <value type="int" key="setupPending">1</value>
+      </value>
+      <value type="string" key="name"></value>
+      <link type="object" struct-name="GrtObject" key="owner">a9888e1c-83aa-11ee-88bc-0242ac150003</link>
+    </value>
+  </value>
+</data>
